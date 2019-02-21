@@ -42,7 +42,7 @@ else
 	echo "${yellow}Baseline system not configured correctly or missing from system${reset}"
 	rm -rf ~/.baseline_testing
 	echo "${blue}Cloning repository...${reset}"
-	git clone https://github.com/techZM/offline_testing.git .baseline_testing > /dev/null
+	git clone -b namibia https://github.com/techZM/offline_testing.git .baseline_testing > /dev/null
 	cd ~/.baseline_testing/
 
 	#make script executable if it isnt
