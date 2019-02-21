@@ -24,9 +24,9 @@ export bold_mode=`tput smso`
 export exit_bold_mode=`tput rmso`
 
 
-#pull latest changes from master branch in repo
+#pull latest changes from namibia branch in repo
  cd ~/.scripts
- git reset --hard origin/master > /dev/null
+ git reset --hard origin/namibia > /dev/null
  git pull > /dev/null
 
 

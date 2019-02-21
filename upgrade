@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd ~/.scripts
-git reset --hard origin/master
+# pull changes to namibia branch
+git reset --hard origin/namibia
 git pull
 ./setup.sh
